@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
 }
 
-img {
+.inverse_image {
   -webkit-filter: invert(1);
   filter: invert(1);
   }
@@ -17,6 +17,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85%;
 }
 
 .header {
@@ -97,5 +104,73 @@ button {
 
 .right-box {
   display: flex;
+
   padding-right: 10%;
+}
+
+.footer {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 15%;
+  bottom: 0%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #1F2937;
+  width: 78%;
+  height: 3%;
+  color: rgb(150, 149, 149);
+  font-size: 12px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.center-hl {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.four-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:24px;
+
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #3882F6; /* This adds a light blue border */
+  border-radius: 10px; /* This rounds the corners */
+}
+
+.image p {
+  text-align: justify;
+  text-align-last: center;
+  max-width: 120px;
+  word-wrap: break-word;
+  font-size: 12px;
 }
