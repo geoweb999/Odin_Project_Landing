@@ -30,8 +30,8 @@ body {
 }
 
 .nav-top {
-  margin-left: 5%;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   justify-content: space-between;
   width: 95%;
@@ -46,10 +46,10 @@ body {
   display: flex;
   justify-content: flex-end;
   text-align: right;
-  gap: 10px;
+  gap: 24px;
   color: rgb(150, 149, 149);
   padding-top: 5px;
-  margin-right: 5%;
+  margin-right: 15%;
 }
 
 .two-box {
@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
   color: white;
   width: 35%;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 15%;
   gap: 4px;
 }
@@ -97,5 +97,5 @@ button {
 
 .right-box {
   display: flex;
-  padding-right: 5%;
+  padding-right: 10%;
 }
